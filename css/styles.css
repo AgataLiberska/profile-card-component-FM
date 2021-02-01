@@ -45,7 +45,31 @@ body {
           align-items: center;
 }
 
+.attribution {
+  position: absolute;
+  bottom: 0.25rem;
+  z-index: 5;
+}
+
+.attribution span {
+  font-size: 0.75rem;
+  color: #6a6f81;
+}
+
+.attribution span a, .attribution span a:hover, .attribution span a:active, .attribution span a:visited {
+  color: #6a6f81;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.attribution span a:hover {
+  font-size: 0.875rem;
+}
+
 .container {
+  position: relative;
   height: 100%;
   width: 100%;
   position: relative;
