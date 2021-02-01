@@ -84,6 +84,14 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 23.375rem) {
+  .card {
+    max-width: 20.625rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+
 .card__cover {
   height: 8.75rem;
   width: 100%;
