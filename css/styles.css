@@ -92,6 +92,12 @@ body {
   }
 }
 
+@media (min-width: 30rem) {
+  .card {
+    width: 21.875rem;
+  }
+}
+
 .card__cover {
   height: 8.75rem;
   width: 100%;
@@ -148,6 +154,12 @@ body {
   border-top: 1px solid #e6e6e6;
   padding: 1.6875rem 2.5rem;
   text-align: center;
+}
+
+@media (min-width: 30rem) {
+  .card__main .stats {
+    padding: 1.6875rem 3rem;
+  }
 }
 
 .card__main .stats .stat_count {
