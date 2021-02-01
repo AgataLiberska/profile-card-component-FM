@@ -1,7 +1,7 @@
 //breakpoints
 
-//480px
-$breakpoints-up: ("medium" : "30rem");
+//480px, 640px, 1024px, 1440px
+$breakpoints-up: ("tablet" : "30rem", "medium": "40em", "large": "64rem",  "xlarge": "90rem");
 
 
 //less than 375px

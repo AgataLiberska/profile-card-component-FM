@@ -82,7 +82,7 @@
             padding: 1.6875rem 2.5rem;
             text-align: center;
 
-            @include breakpoint-up(medium) {
+            @include breakpoint-up(tablet) {
                 padding: 1.6875rem 3rem;
             }
 
