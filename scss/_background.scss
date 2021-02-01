@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        height: 39.0625rem;
+        width: 39.0625rem;
+        background-image: url('/images/bg-pattern-top.svg');
+        background-repeat: no-repeat;
+        background-position: bottom 18.625rem right 15.5rem; 
+
+    }
+
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        height: 39.0625rem;
+        width: 39.0625rem;
+        background-image: url('/images/bg-pattern-bottom.svg');
+        background-repeat: no-repeat;
+        background-position: top 15.375rem left 17.125rem; 
+
+    }
+}

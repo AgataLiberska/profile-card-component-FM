@@ -20,11 +20,6 @@ body {
   color: #2d3248;
 }
 
-.container {
-  height: 100%;
-  width: 100%;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,10 +44,39 @@ body {
           align-items: center;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 39.0625rem;
+  width: 39.0625rem;
+  background-image: url("/images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 18.625rem right 15.5rem;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 39.0625rem;
+  width: 39.0625rem;
+  background-image: url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: top 15.375rem left 17.125rem;
+}
+
 .card {
   width: 20.625rem;
   background-color: white;
   border-radius: 1rem;
+  z-index: 5;
 }
 
 .card__cover {
