@@ -1,0 +1,83 @@
+.card {
+    width: 20.625rem;
+    background-color: white;
+    border-radius: 1rem;
+
+    &__cover {
+        height: 8.75rem;
+        width: 100%;
+
+        background-image: url('/images/bg-pattern-card.svg');
+
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    &__main {
+        position: relative;
+
+        .photo {
+            position: absolute;
+            width: 6.875rem;
+            height: 6.857rem;
+            background-image: url('/images/image-victor.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 5px solid white;
+            border-radius: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .profile {
+            height: 9.0625rem;
+            text-align: center;
+
+            &_user {
+                padding-top: 4.8125rem;
+                padding-bottom: 0.75rem;
+                font-size: $fontMain;
+                
+
+                .name {
+                    font-weight: 700;
+                }
+
+                .age {
+                    padding-left: 0.3125rem;
+                    color: $darkGrayishBlue;
+                }
+            }
+
+            .location {
+                font-size: $fontMedium;
+                color: $darkGrayishBlue;
+            }
+
+        }
+
+        .stats {
+            height: 5.625rem;
+            border-top: 1px solid $lightGray;
+            padding: 1.6875rem 2.5rem;
+            text-align: center;
+
+            .stat_count {
+                display: block;
+                font-size: $fontMain;
+                font-weight: 700;
+                padding-bottom: 0.3rem;
+            }
+
+            .stat_name {
+                display: block;
+                font-size: $fontSmall;
+                color: $darkGray;
+                letter-spacing: 0.06rem;
+            }
+        }
+
+
+    }
+
+}
