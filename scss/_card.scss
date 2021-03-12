@@ -77,7 +77,7 @@
         .stats {
             height: 5.625rem;
             border-top: 1px solid $lightGray;
-            padding: 1.6875rem 2.5rem;
+            padding: 1.6875rem 2rem;
             text-align: center;
 
             @include breakpoint-up(tablet) {
