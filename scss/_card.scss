@@ -1,9 +1,9 @@
 .card {
+    
     width: 20.625rem;
     background-color: white;
     border-radius: 1rem;
     z-index: 5;
-    //box-shadow:      0 2px 10px 5px hsla(0, 0, 0, 0.1);
     box-shadow:
         0 -0.2px 34.2px hsla(0,0,0,0.01), 
         0 6.7px 12.3px hsla(0,0,0,0.01), 
@@ -29,8 +29,6 @@
 
         background-image: url('/images/bg-pattern-card.svg');
 
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
     }
 
     &__main {
@@ -103,5 +101,4 @@
 
 
     }
-
 }
