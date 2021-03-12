@@ -8,17 +8,24 @@ html {
 }
 
 body {
-    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     background-color: $darkCyan;
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 
+        right calc(44vw + 15%) bottom calc(65vh - 15vw), 
+        left calc(38vw + 20%) top calc(70vh - 13vw);
     font-family: 'Kumbh Sans', sans-serif;
     line-height: 1.15;
     color: $darkDesaturatedBlue;
     overflow: hidden;
 }
-
 
 
 .flex {
